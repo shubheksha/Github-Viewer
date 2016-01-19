@@ -2,8 +2,6 @@
 	var app = angular.module("githubViewer", []);
 	var MainController = function ($http) {
 		this.message = "Hi, Angular!";
-		this.user = "o";
-		this.err = null;
 		var onResponse = function (response) {
 			this.user = response.data;
 		};
