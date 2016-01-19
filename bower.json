@@ -1,0 +1,18 @@
+{
+  "name": "Github Viewer",
+  "description": "A simple Angular JS app for fetching data through the Github API and displaying it",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.8"
+  }
+}
