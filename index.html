@@ -1,0 +1,20 @@
+<html ng-app="githubViewer">
+
+<head>
+	<script src="bower_components/angular/angular.js">
+	</script>
+	<script src="controllers/MainController.js"></script>
+	<title> Github Viewer</title>
+</head>
+
+<body>
+	<div ng-controller="MainController as MainCtrl">
+		<div> {{MainCtrl.message}}
+		</div>
+		Username: {{MainCtrl.user.name}}
+		<br> Location: {{MainCtrl.user.location}}
+	</div>
+</body>
+
+
+</html>
